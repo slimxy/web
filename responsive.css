@@ -1,0 +1,122 @@
+@media screen and (max-width: 1020px) {
+  .main1 .top .links a {
+    font-size: 16px;
+    margin-left: 2px;
+  }
+}
+@media screen and (max-width: 1005px) {
+  .grid1 .grid1Text {
+    height: 400px;
+  }
+  .main5 {height: 2000px;}
+  .main6 {height: 2000px;}
+  .main5 .grid3,  .main6 .grid4{
+    display: grid; 
+gap: 23px; } 
+}
+@media screen and (max-width: 840px) {
+  .main1 .top .links a {
+    font-size: 10px;
+  }
+  .main3 .grid2 {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: auto 222px;
+  }
+ 
+    
+    
+}
+@media screen and (max-width: 740px) {
+  .main1 {
+    height: 700px;
+  }
+  .main1 .top .links a {
+    display: grid;
+  }
+  footer{
+    height: 650px;
+  }
+}
+@media screen and (max-width: 665px) {
+  .main2 .grid1 {
+    display: grid;
+  }
+  .main7 p{
+  padding:auto 22px;
+font-size: 13px;}
+}
+@media screen and (max-width: 480px) {
+  .main1 .links2 {
+    display: grid;
+    justify-content: left;
+  }
+  footer{
+    height: 850px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main1 {
+    height: 900px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .grid2Item,
+  .grid2Item img {
+    width: 250px;
+  }
+ 
+  .grid2Item h2::after{
+  
+left: 95px;}
+.main7 p:first-child{
+padding: 25px ;}
+
+}
+@media screen and (max-width: 350px) {
+  .header {
+    height: 102px;
+    display: grid;
+  }
+  .main1 .top {
+    margin-top: 32px;
+  }
+  .main1 .top .links a {
+    padding: 9px;
+    width: 29px;
+  }
+  .main1 .top .quote {
+    font-size: 12px;
+    padding: 6px;
+    height: 10px;
+  }
+  .grid1 .grid1Text {
+    height: 600px;
+  }
+  .main3 .grid2 {
+    margin: 55px;
+    justify-content: center;
+  }
+  .main5 .grid3 .grid3Item ,  .main6 .grid4 .grid4Item {
+    width: 250px;
+  }
+  footer {height: 1200px;}
+  footer .grid5{
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width:260px) {
+    .grid2Item, .grid2Item img        {
+    width: 200px;
+height: 280px;}
+
+.main5 .grid3 .grid3Item  , .main6 .grid4 .grid4Item {
+    width: 210px;
+}
+    .main5  .grid3Item h3 , .main6 .grid4Item h3{
+    width: 105px;
+    padding: 15px;
+    margin-left: 50px;
+}
+}
+
